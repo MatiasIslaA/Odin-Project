@@ -1,0 +1,127 @@
+body {
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+.top-bar {
+    display: flex;
+    justify-content:flex-end;
+    list-style: none;
+    font-size: 14px;
+}
+.top-bar-text {
+    margin-right: 24px;
+    margin-top: 16px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none; 
+}
+.top-bar-text:hover {
+    text-decoration: underline;
+}
+
+.app-icon {
+    margin-top: 4px;
+    margin-right: 4px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.app-icon:hover{
+    background-color: rgba(60,64,67,0.08);
+    padding: 8px;
+}
+.profile-icon{
+    margin-right: 5px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.profile-icon:hover{
+    background-color: rgba(60,64,67,0.08);
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+}
+.search-text{   
+    width: 584px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;   
+    border-radius: 24px; 
+    background-image: url('http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png');
+    background-size: 13px;
+    background-position-y: center;
+    background-position-x: 20px;
+    background-repeat: no-repeat;
+    text-indent: 30px;
+    border: 1px solid #dfe1e5;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.search-text:focus {
+    outline: none;
+}
+.search-text:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+.search-options {
+    margin: 31px 4px;
+    text-align: center;
+}
+.option-1 {
+    flex: 1;  
+    color: #313233;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+
+}
+.option-1:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+}
+.option-2 {
+    flex: 1;    
+    color: #313233;
+    padding: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    margin-left: 15px;
+}
+.option-2:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+}
+.language-option {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+.language-option a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+.language-option a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background:#f2f2f2;
+    width: 100%;
+    padding: 15px;
+}
+.footer a{
+    text-decoration: none;
+    padding: 15px;
+    color: rgba(0,0,0,.54);
+}
+.footer a:hover {
+    text-decoration: underline;
+}
